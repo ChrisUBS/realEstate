@@ -5,7 +5,68 @@ html, body {
     font-family: 'Arial';
 }
 
+img {
+    max-width: 100%;
+}
+
 a {
     text-decoration: none;
     color: #000;
+}
+
+p {
+    line-height: 2;
+}
+
+/* Utilities */
+.container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Header */
+.site-header {
+    background-image: url(/images/header.jpg);
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    height: 250px;
+    text-align: center;
+}
+
+.site-header h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    margin-left: 120px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.text-header {
+    margin-top: 10px;
+}
+
+/* Main */
+.main-flex {
+    display: flex;
+}
+
+.content-container {
+    margin-right: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
