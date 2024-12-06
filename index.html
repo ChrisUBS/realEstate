@@ -15,23 +15,25 @@
 <body>
 
     <header class="site-header">
-        <a class="logo" href="index.html">
-            <img src="images/logo.svg" alt="Real Estate">
-        </a>
-        <nav class="menu">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="blog.html">Blog</a>
-            <a href="contact.html">Contact</a>
+        <nav class="menu-bar">
+            <a class="logo" href="index.html">
+                <img src="images/logo.svg" alt="Real Estate">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+            </nav>
         </nav> <!-- .menu -->
         <div class="text-header">
             <p>We sell luxyry houses, condominiums, and penthouses.</p>
         </div>
     </header> <!-- .site-header -->
 
-    <main class="container main-flex">
-        <section class="content-container">
-            <h1>More about us</h1>
+    <main class="container">
+        <h1>More about us</h1>
+        <section class="about-container">
             <div>
                 <img src="images/icon1.svg" alt="">
                 <h2>Security</h2>
@@ -57,6 +59,40 @@
                     veritatis expedita quisquam necessitatibus ratione nostrum! Quo iusto voluptatibus nulla nam.</p>
             </div>
         </section> <!-- .content-container -->
+
+        <section>
+            <h2>Houses and Penthouses</h2>
+
+            <div>
+                <div class="houses-item">
+                    <div class="houses-item-img">
+                        <img src="images/announcement1.jpg" alt="">
+                    </div>
+                    <div class="houses-item-text">
+                        <h3>Luxury house</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, inventore.</p>
+                        <p class="price">3,000,000.00</p>
+                        <ul class="list-items">
+                            <li class="house-details">
+                                <img src="images/icon_wc.svg" alt="">
+                                <p>3</p>
+                            </li>
+                            <li class="house-details">
+                                <img src="images/icon_room.svg" alt="">
+                                <p>4</p>
+                            </li>
+                            <li class="house-details">
+                                <img src="images/icon_parking.svg" alt="">
+                                <p>3</p>
+                            </li>
+                        </ul>
+                        <a class="btn-details" href="#">See details</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
     </main> <!-- .container -->
 
     <footer class="site-footer">
