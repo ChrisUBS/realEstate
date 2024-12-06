@@ -18,7 +18,6 @@ img {
 
 p {
     font-size: 1.6rem;
-    line-height: 2;
 }
 
 a {
@@ -37,6 +36,10 @@ h2 {
 
 h3 {
     font-size: 2.5rem;
+}
+
+ul {
+    padding: 0;
 }
 
 /* Utilities */
@@ -72,14 +75,20 @@ h3 {
     display: flex;
 }
 
+.about-container div {
+    margin-right: 2rem;
+}
+
 /* Houses */
+.container-houses {
+    display: flex;
+}
+
 .houses-item {
     background-color: #dedede;
     border: 1px solid gray;
-}
-
-.houses-item-img {
-
+    margin: 2rem;
+    margin-bottom: 3rem;
 }
 
 .houses-item-text {
@@ -101,17 +110,21 @@ li {
     list-style: none;
 }
 
+.list-items {
+    display: flex;
+    justify-content: space-around;
+}
+
 .house-details {
     display: flex;
 }
 
 .house-details img {
-    margin-right: 3rem;
+    margin-right: 0.5rem;
 }
 
-.list-items {
-    display: flex;
-    justify-content: space-around;
+.house-details p {
+    margin-bottom: 3rem;
 }
 
 /* Footer */
