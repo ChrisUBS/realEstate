@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Forms</h1>
+
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <div>
+                <label for="name">Name:</label>
+                <input id="name" type="text" placeholder="Introduce your name">
+            </div>
+            
+            <div>
+                <label for="age">Age:</label>
+                <input id="age" type="number">
+            </div>
+            
+            <div>
+                <label for="email">Email:</label>
+                <input id="email" type="email">
+            </div>
+
+            <div>
+                <label for="password">Password:</label>
+                <input id="password" type="password">
+            </div>
+
+            <div>
+                <label for="date">Select a date:</label>
+                <input id="date" type="date">
+            </div>
+
+            <div>
+                <label for="color">Color:</label>
+                <input id="color" type="color">
+            </div>
+
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" maxlength="10"></textarea>
+            </div>
+
+            <div>
+                <label for="product-type">Product Type:</label>
+                <select id="product-type">
+                    <option value="option 1">Option #1</option>
+                    <option value="option 2">Option #2</option>
+                    <option value="option 3">Option #3</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="time">Time:</label>
+                <input id="time" type="time">
+            </div>
+
+            <div>
+                <label>Status:</label>
+                Active <input name="status" type="radio" value="active">
+                Inactive <input name="status" type="radio" value="inactive">
+            </div>
+
+            <div>
+                <label for="pet">Pet:</label>
+                Dog <input type="checkbox">
+                Cat <input type="checkbox">
+            </div>
+
+            <button>Confirm</button>
+            <button disabled>Cancel</button>
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
