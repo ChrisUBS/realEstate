@@ -1,0 +1,197 @@
+/* General */
+html {
+    font-size: 62.5%;
+    /* 1rem = 10px */
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+a {
+    color: black;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 2.5rem;
+    margin: 1rem;
+}
+
+p {
+    font-size: 1.5rem;
+    margin: 0.2rem;
+}
+
+/* Utilities */
+.container {
+    width: 90%;
+    margin: 20px auto 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+    
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Header */
+.site-header {
+    height: 30vh;
+    background-color: #D09737;
+    color: black;
+    text-align: center;
+}
+
+.menu-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-bar a {
+    margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+    .menu-bar {
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+}
+
+/* Main */
+.main-text {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container-form {
+    width: 80%;
+    background-color: #EDEDED;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto 10px auto;
+    border-radius: 10px;
+}
+
+fieldset div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+fieldset label {
+    flex: 1;
+    text-align: left;
+    font-weight: bold;
+}
+
+fieldset input,
+fieldset textarea,
+fieldset select {
+    flex: 2;
+    text-align: center;
+    padding: 5px;
+}
+
+fieldset div::after {
+    content: '';
+    flex: 1;
+}
+
+/* Contact information */
+.contact-information div {
+    justify-content: space-around;
+}
+
+.contact-information div::after {
+    content: none;
+}
+
+.contact-information label {
+    margin-right: 10px;
+}
+
+/* Button style */
+button {
+    width: 150px;
+    padding: 5px;
+    font-size: 1.5rem;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #EDEDED;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    border-top: 0.5px solid black;
+}
+
+@media (max-width: 768px) {
+    .menu-bar div {
+        padding: 5px;
+    }
+}
+
+.menu-bar span {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.copyright p {
+    font-size: 1.2rem;
+}
+
+.icons-footer i {
+    margin-right: 10px;
+    padding: 10px;
+    border: 1.5px solid black;
+    border-radius: 30px;
+    display: inline-block;
+}
