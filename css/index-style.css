@@ -62,7 +62,7 @@ ul {
 .site-header {
     /* height: 250px; */
     height: 40vh;
-    background-image: url(/images/header.jpg);
+    background-image: url(../images/header.jpg);
     background-position: center center;
     background-size: cover;
     color: white;
