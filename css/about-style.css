@@ -1,0 +1,195 @@
+/* General */
+html {
+    font-size: 62.5%;
+    /* 1rem = 10px */
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+a {
+    color: white;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+ul {
+    padding: 0;
+}
+
+/* Utilities */
+.container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+    
+}
+
+/* Header */
+.site-header {
+    /* height: 250px; */
+    height: 30vh;
+    background-image: url(../images/header.jpg);
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.menu-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-bar a {
+    margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+    .menu-bar {
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+}
+
+/* Main */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about-intro h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.about-intro p {
+    font-size: 1.5em;
+    color: #666;
+}
+
+/* Team Section */
+.team-container {
+    margin: 40px 0;
+}
+
+.team-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    text-align: center;
+    margin: 20px;
+    flex: 1 1 250px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    font-size: 3em;
+    margin: 10px 0;
+}
+
+.team-member p {
+    font-size: 2em;
+    color: #777;
+}
+
+/* Values Section */
+.values-container {
+    margin: 40px 0;
+}
+
+.values-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.values-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.values-list li {
+    margin: 20px;
+    text-align: center;
+    flex: 1 1 300px;
+}
+
+.values-list h3 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.values-list p {
+    font-size: 1.5em;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
